@@ -1,0 +1,74 @@
+
+body {
+  color: gold;
+  font-family: 'Lexend Tera', sans-serif;
+  background: rgb(65,32,91);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.calligraphy {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  min-width: 600px;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+  width: 100%;
+}
+
+.heading-wrapper h1 {
+  font-size: 50px;
+}
+
+.heading-wrapper h2 {
+  font-size: 25px;
+}
+
+.bullet-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 150px;
+}
+
+.details-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+a {
+  margin-top: 20px;
+  margin-bottom: 10vh;
+}
+
+a:visited, a:link {
+  color: gold;
+  text-decoration: none;
+}
